@@ -98,7 +98,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 operacao: operacao
             };
 
-            fetch("index.php", {
+            fetch("calcular.php", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
