@@ -40,7 +40,6 @@
                         console.log("Requisicao falhou: " + this.status);
             }
             console.log("4");
-            // encodeURIComponent é necessário: sem ele o "+" chega no PHP como espaço
             xmlhttp.open("GET", "ex02_soma.php?a=" + encodeURIComponent(a) +
                             "&b=" + encodeURIComponent(b) +
                             "&op=" + encodeURIComponent(op));
